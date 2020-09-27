@@ -7,7 +7,7 @@ draft: false
 One of my favorite tiny projects for learning a new language is implementing
 an echo server. An echo server is an HTTP listener that responds back to
 the client with attributes about the incoming request. It can return things like
-the client's IP address, headers sent by the client , and anything else the
+the client's IP address, headers sent by the client, and anything else the
 server is privy to.
 
 It's such a simple thing, but it can be very useful for testing proxy setups, 
