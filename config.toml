@@ -1,80 +1,59 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Mike Shade"
-theme = "hello-friend"
+theme = "anatole"
+summarylength = "10"
+enableEmoji = true
+enableRobotsTXT = true
 paginate = 5
 publishDir = "./docs"
 
 [params]
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
-  contentTypeName = "posts"
-  defaultTheme = "dark"
+  title = "Mike Shade"
+  author = "Mike Shade"
+  description = "devops and music."
+  profilePicture = "https://avatars0.githubusercontent.com/u/393545?s=460&u=97ae867516a23f7aac20cee1ca852ad91e1bf434&v=4"
+  displayMode = "dark"
 
-  # ["orange", "blue", "red", "green", "pink"]
-  #themeColor = "green"
+## Social links
+[[params.socialIcons]]
+icon = "fa-linkedin"
+title = "Linkedin"
+url = "https://linkedin.com/in/mikeshade1"
 
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+[[params.socialIcons]]
+icon = "fa-github"
+title = "GitHub"
+url = "https://github.com/mshade"
 
-  # show selector to switch language
-  showLanguageSelector = false
+#[[params.socialIcons]]
+#icon = "fa-instagram"
+#title = "instagram"
+#url = "https://www.instagram.com/"
 
-  # set theme to full screen width
-  fullWidthTheme = false
+[[params.socialIcons]]
+icon = "fa-play"
+title = "soundcloud"
+url = "https://soundcloud.com/mikeshade"
 
-  # center theme with default width
-  centerTheme = true
+[menu]
 
-  # set a custom favicon (default is a `themeColor` square)
-  # favicon = "favicon.ico"
+  [[menu.main]]
+  name = "home"
+  identifier = "home"
+  weight = 100
+  url = "/"
 
-  # set post to show the last updated
-  # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
-  showLastUpdated = false
-  # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
-  # updatedDatePrefix = "Updated"
+  [[menu.main]]
+  name = "posts"
+  weight = 200
+  identifier = "posts"
+  url = "/posts/"
 
-  # set all headings to their default size (depending on browser settings)
-  # it's set to `true` by default
-  # oneHeadingSize = false
-
-[params.twitter]
-  # set Twitter handles for Twitter cards
-  # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
-  # do not include @
-  creator = "mike_shade"
-  site = "https://mikeshade.com/"
-
-[languages]
-  [languages.en]
-    title = "Mike Shade"
-    subtitle = "A simple theme for Hugo"
-    keywords = ""
-    copyright = ""
-    menuMore = "Show more"
-    writtenBy = ""
-    readMore = "more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    minuteReadingTime = "min read"
-    dateFormatSingle = "2006-01-02"
-    dateFormatList = "2006-01-02"
-    # leave empty to disable, enter display text to enable
-    # lastModDisplay = ""
-
-    [languages.en.params.logo]
-      logoText = "Mike Shade $"
-      logoHomeLink = "/"
-
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "about"
-        url = "/about/"
-
-      [[languages.en.menu.main]]
-        identifier = "resume"
-        name = "resume"
-        url = "https://resume.mshade.org"
+  [[menu.main]]
+  name = "about"
+  weight = 300
+  identifier = "about"
+  url = "/about/"

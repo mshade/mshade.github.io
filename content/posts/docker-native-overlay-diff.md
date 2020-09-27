@@ -6,7 +6,7 @@ authorTwitter = "mike_shade" #do not include @
 cover = ""
 tags = ["docker", "tech", "linux"]
 keywords = ["docker", "linux"]
-description = "Docker, slow builds, and `Native Overlay Diff: false`"
+summary = "Watching `docker build` on my workstation, I noticed that the process was pausing between layers..."
 showFullContent = true
 +++
 
