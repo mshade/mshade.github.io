@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark"><head>
-    <title> Mike Shade | Mike Shade </title>
+    <title> Mike Shade | Gecho Golang Echoserver </title>
 
     
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.75.1" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -19,10 +19,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
-    <link rel="canonical" href="/">
+    <link rel="canonical" href="/posts/gecho-golang-echoserver/">
 
     
-    <link rel="alternate" type="application/rss+xml" href="/index.xml" title="Mike Shade" />
     
     
     
@@ -31,8 +30,8 @@
             integrity="sha256-54LbE27BjRBaRVJwLqxJ9GINaGfaP7&#43;Ai9U&#43;gGyWvm4="
             crossorigin="anonymous"></script>
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Mike Shade"/>
-<meta name="twitter:description" content="devops and music."/>
+<meta name="twitter:title" content="Gecho Golang Echoserver"/>
+<meta name="twitter:description" content="One of my favorite tiny projects for learning a new language is implementing an echo server."/>
 
 </head>
 <body><div class="sidebar animated fadeInDown">
@@ -81,7 +80,7 @@
         
         
             
-            <li><a class="current"
+            <li><a 
                    href="/"
                         
                    title="">home</a></li>
@@ -118,77 +117,55 @@
 
     <div class="autopagerize_page_element">
         <div class="content">
-    
-    
-        <div class="post animated fadeInDown">
-            <div class="post-title">
-                <h3><a href="/posts/gecho-golang-echoserver/">Gecho Golang Echoserver</a>
-                </h3>
-            </div>
-            <div class="post-content">
-                <div class="p_part"><p>One of my favorite tiny projects for learning a new language is implementing an echo server.</p></div>
+    <div class="post animated fadeInDown">
+        <div class="post-content">
 
-                <div class="p_part"><p></p></div>
+            <div class="post-title">
+                <h3>Gecho Golang Echoserver</h3>
+                
             </div>
-            <div class="post-footer">
-                <div class="meta">
-                    <div class="info"><em class="fa fa-sun-o"></em><span
-                                class="date">Sun, Sep 27, 2020</span>
-                        
-                    </div>
-                </div>
+
+            <p>One of my favorite tiny projects for learning a new language is implementing
+an echo server. An echo server is an HTTP listener that responds back to
+the client with attributes about the incoming request. It can return things like
+the client&rsquo;s IP address, headers sent by the client , and anything else the
+server is privy to.</p>
+<p>It&rsquo;s such a simple thing, but it can be very useful for testing proxy setups,
+understanding complex request flows, header handling, cache behavior,
+etc. I often stand one up when I am troubleshooting things as a first step to
+sanity check assumptions about what the server might be seeing from the client.</p>
+<p>Tonight, I spent some time implementing an echo server with Golang to learn
+about its basic methods and syntax. The result is
+<a href="https://github.com/mshade/gecho">gecho</a>, a tiny listener that will respond
+by echoing request attributes back at. It has two endpoints &ndash; a default at <code>/</code>,
+and <code>/ip</code> which simply returns the IP of the client.</p>
+<p>You can hit it at <a href="https://reflec.me">reflec.me</a>.
+A container is available at <a href="https://hub.docker.com/r/mshade/gecho">mshade/gecho</a>,
+weighing in at less than 4MB.</p>
+<p>Test it out with docker:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ docker run --name gecho -d --rm -p 8090:8090 mshade/gecho
+
+$ curl http://localhost:8090/ -H <span style="color:#e6db74">&#34;Hello: world&#34;</span>
+Host: localhost:8090
+Remote Address: 172.17.0.1:49662
+RequestURI: /
+
+Headers
+Accept: */*
+Hello: world
+User-Agent: curl/7.72.0
+</code></pre></div>
+        </div>
+        <div class="post-footer">
+            <div class="info">
+                
+                
             </div>
         </div>
-    
-        <div class="post animated fadeInDown">
-            <div class="post-title">
-                <h3><a href="/posts/docker-native-overlay-diff/">Enabling Docker&#39;s Native Overlay Diff on Linux</a>
-                </h3>
-            </div>
-            <div class="post-content">
-                <div class="p_part"><p>Watching <code>docker build</code> on my workstation, I noticed that the process was pausing between layers&hellip;</p></div>
 
-                <div class="p_part"><p></p></div>
-            </div>
-            <div class="post-footer">
-                <div class="meta">
-                    <div class="info"><em class="fa fa-sun-o"></em><span
-                                class="date">Sun, Sep 27, 2020</span>
-                        <a class="tag"
-                                   href="/tags/docker/">docker</a><a class="tag"
-                                   href="/tags/tech/">tech</a><a class="tag"
-                                   href="/tags/linux/">linux</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-        <div class="post animated fadeInDown">
-            <div class="post-title">
-                <h3><a href="/posts/hello-world/">Hello, world</a>
-                </h3>
-            </div>
-            <div class="post-content">
-                <div class="p_part"><p>Just getting started with hugo.</p></div>
-
-                <div class="p_part"><p></p></div>
-            </div>
-            <div class="post-footer">
-                <div class="meta">
-                    <div class="info"><em class="fa fa-sun-o"></em><span
-                                class="date">Sat, Sep 26, 2020</span>
-                        <a class="tag"
-                                   href="/tags/hello-world/">hello world</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-    <div class="pagination">
         
-
-
     </div>
+
 
         </div>
     </div>
