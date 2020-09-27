@@ -7,6 +7,7 @@ enableEmoji = true
 enableRobotsTXT = true
 paginate = 5
 publishDir = "./docs"
+googleAnalytics = "UA-179136820-1"
 
 [params]
   # dir name of your main content (default is `content/posts`).
