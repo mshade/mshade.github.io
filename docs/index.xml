@@ -5,21 +5,21 @@
     
     
     
-    <link>https://mikeshade.com/</link>
+    <link>/</link>
     <description>Recent content on Mike Shade - the blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 27 Sep 2020 01:48:06 +0000</lastBuildDate>
     
-	<atom:link href="https://mikeshade.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>about</title>
-      <link>https://mikeshade.com/about/</link>
+      <link>/about/</link>
       <pubDate>Sun, 27 Sep 2020 01:48:06 +0000</pubDate>
       
-      <guid>https://mikeshade.com/about/</guid>
+      <guid>/about/</guid>
       <description>
         
           
@@ -36,10 +36,10 @@
     
     <item>
       <title>Enabling Docker&#39;s Native Overlay Diff on Linux</title>
-      <link>https://mikeshade.com/posts/docker-native-overlay-diff/</link>
+      <link>/posts/docker-native-overlay-diff/</link>
       <pubDate>Sun, 27 Sep 2020 00:59:11 +0000</pubDate>
       
-      <guid>https://mikeshade.com/posts/docker-native-overlay-diff/</guid>
+      <guid>/posts/docker-native-overlay-diff/</guid>
       <description>
         
           
@@ -56,10 +56,10 @@
     
     <item>
       <title>Hello, world</title>
-      <link>https://mikeshade.com/posts/hello-world/</link>
+      <link>/posts/hello-world/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://mikeshade.com/posts/hello-world/</guid>
+      <guid>/posts/hello-world/</guid>
       <description>
         
           

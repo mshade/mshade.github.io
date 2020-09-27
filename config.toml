@@ -1,4 +1,4 @@
-baseURL = "https://mikeshade.com/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Mike Shade"
 theme = "hello-friend"

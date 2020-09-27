@@ -3,57 +3,57 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mikeshade.com/tags/about/</loc>
+    <loc>/tags/about/</loc>
     <lastmod>2020-09-27T01:48:06+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mikeshade.com/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2020-09-27T01:48:06+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mikeshade.com/</loc>
+    <loc>/</loc>
     <lastmod>2020-09-27T01:48:06+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mikeshade.com/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2020-09-27T01:48:06+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mikeshade.com/tags/docker/</loc>
+    <loc>/tags/docker/</loc>
     <lastmod>2020-09-27T00:59:11+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mikeshade.com/posts/docker-native-overlay-diff/</loc>
+    <loc>/posts/docker-native-overlay-diff/</loc>
     <lastmod>2020-09-27T00:59:11+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mikeshade.com/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2020-09-27T00:59:11+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mikeshade.com/tags/tech/</loc>
+    <loc>/tags/tech/</loc>
     <lastmod>2020-09-27T00:59:11+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mikeshade.com/tags/hello-world/</loc>
+    <loc>/tags/hello-world/</loc>
     <lastmod>2020-09-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mikeshade.com/posts/hello-world/</loc>
+    <loc>/posts/hello-world/</loc>
     <lastmod>2020-09-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mikeshade.com/categories/</loc>
+    <loc>/categories/</loc>
   </url>
   
 </urlset>

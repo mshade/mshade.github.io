@@ -5,21 +5,21 @@
     
     
     
-    <link>https://mikeshade.com/tags/docker/</link>
+    <link>/tags/docker/</link>
     <description>Recent content in docker on Mike Shade - the blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 27 Sep 2020 00:59:11 +0000</lastBuildDate>
     
-	<atom:link href="https://mikeshade.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Enabling Docker&#39;s Native Overlay Diff on Linux</title>
-      <link>https://mikeshade.com/posts/docker-native-overlay-diff/</link>
+      <link>/posts/docker-native-overlay-diff/</link>
       <pubDate>Sun, 27 Sep 2020 00:59:11 +0000</pubDate>
       
-      <guid>https://mikeshade.com/posts/docker-native-overlay-diff/</guid>
+      <guid>/posts/docker-native-overlay-diff/</guid>
       <description>
         
           

@@ -5,21 +5,21 @@
     
     
     
-    <link>https://mikeshade.com/tags/hello-world/</link>
+    <link>/tags/hello-world/</link>
     <description>Recent content in hello world on Mike Shade - the blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 26 Sep 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://mikeshade.com/tags/hello-world/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/hello-world/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello, world</title>
-      <link>https://mikeshade.com/posts/hello-world/</link>
+      <link>/posts/hello-world/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://mikeshade.com/posts/hello-world/</guid>
+      <guid>/posts/hello-world/</guid>
       <description>
         
           

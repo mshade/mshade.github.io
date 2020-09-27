@@ -5,21 +5,21 @@
     
     
     
-    <link>https://mikeshade.com/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Mike Shade - the blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 27 Sep 2020 01:48:06 +0000</lastBuildDate>
     
-	<atom:link href="https://mikeshade.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>about</title>
-      <link>https://mikeshade.com/tags/about/</link>
+      <link>/tags/about/</link>
       <pubDate>Sun, 27 Sep 2020 01:48:06 +0000</pubDate>
       
-      <guid>https://mikeshade.com/tags/about/</guid>
+      <guid>/tags/about/</guid>
       <description>
         
           
@@ -36,10 +36,10 @@
     
     <item>
       <title>docker</title>
-      <link>https://mikeshade.com/tags/docker/</link>
+      <link>/tags/docker/</link>
       <pubDate>Sun, 27 Sep 2020 00:59:11 +0000</pubDate>
       
-      <guid>https://mikeshade.com/tags/docker/</guid>
+      <guid>/tags/docker/</guid>
       <description>
         
           
@@ -56,10 +56,10 @@
     
     <item>
       <title>tech</title>
-      <link>https://mikeshade.com/tags/tech/</link>
+      <link>/tags/tech/</link>
       <pubDate>Sun, 27 Sep 2020 00:59:11 +0000</pubDate>
       
-      <guid>https://mikeshade.com/tags/tech/</guid>
+      <guid>/tags/tech/</guid>
       <description>
         
           
@@ -76,10 +76,10 @@
     
     <item>
       <title>hello world</title>
-      <link>https://mikeshade.com/tags/hello-world/</link>
+      <link>/tags/hello-world/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://mikeshade.com/tags/hello-world/</guid>
+      <guid>/tags/hello-world/</guid>
       <description>
         
           
