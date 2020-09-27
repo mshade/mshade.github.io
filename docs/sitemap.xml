@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://mikeshade.com/tags/about/</loc>
+    <lastmod>2020-09-27T01:48:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mikeshade.com/about/</loc>
+    <lastmod>2020-09-27T01:48:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mikeshade.com/</loc>
+    <lastmod>2020-09-27T01:48:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mikeshade.com/tags/</loc>
+    <lastmod>2020-09-27T01:48:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mikeshade.com/tags/docker/</loc>
+    <lastmod>2020-09-27T00:59:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mikeshade.com/posts/docker-native-overlay-diff/</loc>
+    <lastmod>2020-09-27T00:59:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mikeshade.com/posts/</loc>
+    <lastmod>2020-09-27T00:59:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mikeshade.com/tags/tech/</loc>
+    <lastmod>2020-09-27T00:59:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mikeshade.com/tags/hello-world/</loc>
+    <lastmod>2020-09-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mikeshade.com/posts/hello-world/</loc>
+    <lastmod>2020-09-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mikeshade.com/categories/</loc>
+  </url>
+  
+</urlset>
