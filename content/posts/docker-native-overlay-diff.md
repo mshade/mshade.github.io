@@ -4,10 +4,10 @@ date = 2020-09-27T00:59:11Z
 author = "Mike Shade"
 authorTwitter = "mike_shade" #do not include @
 cover = ""
-tags = ["docker", "tech"]
-keywords = ["", ""]
+tags = ["docker", "tech", "linux"]
+keywords = ["docker", "linux"]
 description = "Docker, slow builds, and `Native Overlay Diff: false`"
-showFullContent = false
+showFullContent = true
 +++
 
 # The Problem

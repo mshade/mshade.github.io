@@ -48,13 +48,13 @@ publishDir = "./docs"
 
 [languages]
   [languages.en]
-    title = "Mike Shade - the blog"
+    title = "Mike Shade"
     subtitle = "A simple theme for Hugo"
     keywords = ""
     copyright = ""
     menuMore = "Show more"
-    writtenBy = "Written by"
-    readMore = "Read more"
+    writtenBy = ""
+    readMore = "more"
     readOtherPosts = "Read other posts"
     newerPosts = "Newer posts"
     olderPosts = "Older posts"
