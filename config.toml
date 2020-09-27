@@ -57,3 +57,10 @@ url = "https://soundcloud.com/mikeshade"
   weight = 300
   identifier = "about"
   url = "/about/"
+
+  [[menu.main]]
+  name = "resume"
+  weight = 400
+  identifier = "resume"
+  url = "https://resume.mshade.org"
+
