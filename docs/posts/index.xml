@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Mike Shade</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Sep 2020 06:41:07 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Sep 2020 20:36:25 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Keychron Linux Function Keys</title>
+      <link>/posts/keychron-linux-function-keys/</link>
+      <pubDate>Mon, 28 Sep 2020 20:36:25 +0000</pubDate>
+      
+      <guid>/posts/keychron-linux-function-keys/</guid>
+      <description>&lt;p&gt;On Linux, the &lt;a href=&#34;https://www.keychron.com/products/keychron-k2-wireless-mechanical-keyboard&#34;&gt;Keychron K2&lt;/a&gt;
+doesn&amp;rsquo;t register any of the F1-F12 function keys as actual F keys, instead,
+treating them as multimedia keys by default. Here&amp;rsquo;s how to fix it!&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Gecho Golang Echoserver</title>
       <link>/posts/gecho-golang-echoserver/</link>

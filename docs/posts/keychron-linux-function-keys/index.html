@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark"><head>
-    <title> Mike Shade | Posts </title>
+    <title> Mike Shade | Keychron Linux Function Keys </title>
 
     
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.75.1" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -19,10 +19,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
-    <link rel="canonical" href="/posts/">
+    <link rel="canonical" href="/posts/keychron-linux-function-keys/">
 
     
-    <link rel="alternate" type="application/rss+xml" href="/posts/index.xml" title="Mike Shade" />
     
     
     
@@ -31,8 +30,10 @@
             integrity="sha256-54LbE27BjRBaRVJwLqxJ9GINaGfaP7&#43;Ai9U&#43;gGyWvm4="
             crossorigin="anonymous"></script>
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content="devops and music."/>
+<meta name="twitter:title" content="Keychron Linux Function Keys"/>
+<meta name="twitter:description" content="On Linux, the Keychron K2
+doesn&rsquo;t register any of the F1-F12 function keys as actual F keys, instead,
+treating them as multimedia keys by default. Here&rsquo;s how to fix it!"/>
 
 </head>
 <body><div class="sidebar animated fadeInDown">
@@ -87,7 +88,7 @@
                    title="">home</a></li>
         
             
-            <li><a class="current"
+            <li><a 
                    href="/posts/"
                         
                    title="">posts</a></li>
@@ -118,46 +119,53 @@
 
     <div class="autopagerize_page_element">
         <div class="content">
-    <div class="archive animated fadeInDown">
-        <ul class="list-with-title">
-            
-                <div class="listing-title">2020</div>
+    <div class="post animated fadeInDown">
+        <div class="post-content">
+
+            <div class="post-title">
+                <h3>Keychron Linux Function Keys</h3>
                 
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="/posts/keychron-linux-function-keys/" title="Keychron Linux Function Keys">Keychron Linux Function Keys</a>
-                                <div class="post-time"><span class="date">Sep 28</span></div>
-                            </div>
-                        </div>
-                    </ul>
+            </div>
+
+            <p>On Linux, the <a href="https://www.keychron.com/products/keychron-k2-wireless-mechanical-keyboard">Keychron K2</a>
+doesn&rsquo;t register any of the F1-F12 function keys as actual F keys, instead,
+treating them as multimedia keys by default. Here&rsquo;s how to fix it!</p>
+<p>They keyboard has 2 modes:
+Windows/Android and MacOS, but neither mode worked properly out of the box.</p>
+<p>To fix this:</p>
+<ul>
+<li>Set the keyboard to Windows mode via the side switch</li>
+<li>Use <code>Fn + X + L</code> (hold for 4 seconds) to set the function key row to &ldquo;Function&rdquo; mode. (usually all that&rsquo;s necessary on Windows)</li>
+<li><code>echo 0 | sudo tee /sys/module/hid_apple/parameters/fnmode</code></li>
+</ul>
+<p>Once complete, my F1-F12 keys work properly, and holding <code>Fn</code> turns them into
+multimedia keys.
+You can use the <code>evtest</code> utility to check how keyboard keys are registering until
+you get the above combination of settings configured properly.</p>
+<p>To persist this change, add a module option for <code>hid_apple</code>:</p>
+<pre><code>echo &quot;options hid_apple fnmode=0&quot; | sudo tee -a /etc/modprobe.d/hid_apple.conf
+</code></pre><p>You may need to rebuild your <code>initramfs</code> if <code>hid_apple</code> is included.</p>
+<ul>
+<li>ubuntu: <code>sudo update-initramfs -u</code></li>
+<li>arch: <code>mkinitcpio -P</code></li>
+</ul>
+<p>See also:</p>
+<ul>
+<li><a href="https://www.reddit.com/r/MechanicalKeyboards/comments/d5io49/keychron_k2_f_keys_dont_work_w_linux_help/f0m2u14/">/u/fratdaddyZC&rsquo;s comment on reddit for the <code>fnmode</code> tip</a></li>
+<li><a href="https://github.com/Kurgol/keychron/blob/master/k2.md">Kurgol&rsquo;s keychron repo of tips</a></li>
+<li><a href="https://drive.google.com/file/d/1PsAKfM4lJVGuHL4oAFW7r10ACMfwFRpG/view">K2 manual</a></li>
+</ul>
+        </div>
+        <div class="post-footer">
+            <div class="info">
                 
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="/posts/gecho-golang-echoserver/" title="Gecho Golang Echoserver">Gecho Golang Echoserver</a>
-                                <div class="post-time"><span class="date">Sep 27</span></div>
-                            </div>
-                        </div>
-                    </ul>
                 
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="/posts/docker-native-overlay-diff/" title="Enabling Docker&#39;s Native Overlay Diff on Linux">Enabling Docker&#39;s Native Overlay Diff on Linux</a>
-                                <div class="post-time"><span class="date">Sep 27</span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="/posts/hello-world/" title="Hello, world">Hello, world</a>
-                                <div class="post-time"><span class="date">Sep 26</span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-            
-        </ul>
+            </div>
+        </div>
+
+        
     </div>
+
 
         </div>
     </div>
